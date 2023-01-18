@@ -4,7 +4,7 @@ import { Box, Button, Divider, HStack, Text, VStack } from "@chakra-ui/react";
 export default function SocialLogin() {
     let kakaoParams = {
         client_id: "898280d2126c6a6a4ded6c15669ad04e",
-        redirect_uri: "http://127.0.0.1:3000/social/kakao",
+        redirect_uri: "https://airbnb-frontend-wh7n.onrender.com/social/kakao",
         response_type: "code",
     };
 
